@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="file_organize_product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="com.adonai.file.organize"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="com.adonai.file.organize">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
