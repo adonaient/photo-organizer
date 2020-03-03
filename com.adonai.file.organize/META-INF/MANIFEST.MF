@@ -31,3 +31,6 @@ Bundle-ActivationPolicy: lazy
 Import-Package: javax.annotation;version="1.0.0";resolution:=optional,
   javax.inject;version="1.0.0"
 Automatic-Module-Name: com.adonai.file.organize
+Export-Package: com.adonai.file.organize,
+ com.adonai.file.organize.parts,
+ org.eclipse.wb.swt
